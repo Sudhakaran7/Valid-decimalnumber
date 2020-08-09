@@ -1,0 +1,52 @@
+You are given with a string S1, you have to say whether it is a valid decimal number or not with the following condition:
+The characters can contain,
+Numbers 0-9
+Exponent - "e"
+Positive/negative sign - "+"/"-"
+Decimal point - "."
+Note: The context of these characters also matters in the input.
+
+Input description:
+S1 as String
+
+Output Description:
+True or False
+
+Sample Input:
+e3
+
+Sample Output:
+False
+
+Explanation:
+Exponent cannot be in start of a decimal number
+
+Sample Input:
+1e2
+
+Sample Output:
+True
+
+Sample Input:
+6.2e
+
+Sample Output:
+False
+
+Sample Input:
+53.5e9
+
+Sample Output:
+True
+
+Sample Input:
+-+3
+
+Sample Output:
+False
+
+Sample Input:
+6e-4
+
+Sample Output:
+True
